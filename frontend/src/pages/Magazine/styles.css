@@ -1,0 +1,21 @@
+.magazine {
+    height: 64vh;
+}
+
+.magazine header {
+    padding: 10px 10px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 40vh;
+}
+
+.card {
+    width: 50vh !important;
+    margin-left: 100px;
+}
+

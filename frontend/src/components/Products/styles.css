@@ -1,0 +1,31 @@
+section.produtos {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.produtos div {
+    display: inline-block;
+}
+
+img.itens {
+    width: 200px;
+    cursor: pointer;
+}
+
+.box_produto .descricao{
+    font-size: 22px;
+    width: 400px;
+    
+}
+
+.box_produto .preco{
+    font-size: 16px;
+    
+}
+
+.box_produto .precofinal{
+    font-size: 20px;
+    
+}

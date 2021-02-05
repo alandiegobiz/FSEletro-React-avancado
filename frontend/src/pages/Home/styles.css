@@ -1,0 +1,45 @@
+.container-fluid {
+    display: flex;
+    padding-top: 250px;
+    height: 64vh;
+    
+}
+
+.container-1 {
+    width: 50%;
+}
+
+.container-2 {
+    margin-top: -150px;
+    width: 50%;
+    
+}
+
+.container-2 img {
+    width: 80%;
+    height: 100%;
+}
+
+@media (max-width: 2000px) {
+    .container-2 img {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .container-2 img {
+        width: 40%;
+        height: 30%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container-1 {
+        width: 100%;
+    }
+    
+    .container-2 img {
+        display: none;
+    }
+}

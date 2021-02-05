@@ -1,0 +1,20 @@
+.products header {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    padding: 10px 10px;
+}
+
+.products-section {
+    display: flex;
+}
+
+.products-section .section-1 {
+    width: 15%;
+}
+
+.products-section .section-2 {
+    display: inline-block;
+    width: 85%;
+    height: 110vh;
+}
